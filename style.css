@@ -40,6 +40,7 @@ h2 {
     max-width: 1200px;
     padding: 0 50px 0 50px;
     margin: 0 auto 0 auto;
+    
 }
 
 /* Header */
@@ -89,7 +90,16 @@ h2 {
 }
 
 .cv__right-part {
-    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #0A0D1A;
+    padding: 20px;
+}
+
+.cv-left-part {
+    margin-right: 15px;
+    border-radius: 20px;
+    background-color: #0A0D1A;
+    padding: 20px;  
 }
 
 /* Contact */
@@ -112,6 +122,7 @@ h2 {
 .contact__list-item.email::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/mail.svg');
@@ -121,6 +132,7 @@ h2 {
 .contact__list-item.telephone::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/telephon.svg');
@@ -130,6 +142,7 @@ h2 {
 .contact__list-item.location::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/location.svg');
@@ -156,6 +169,7 @@ h2 {
 .about-me__list-item.linkedin::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/linkedin.svg');
@@ -165,6 +179,7 @@ h2 {
 .about-me__list-item.github::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/github.svg');
@@ -196,7 +211,7 @@ h2 {
 }
 
 .skills__dot-block {
-    padding-right: 120px;
+    padding-right: 70px;
 }
 
 .skills_dot {
@@ -332,6 +347,7 @@ h2 {
 .footer__media-item.github::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/github.svg');
@@ -341,6 +357,7 @@ h2 {
 .footer__media-item.linkedin::before {
     content: '';
     display: block;
+    filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
     background-image: url('./images/linkedin.svg');
