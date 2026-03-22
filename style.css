@@ -43,6 +43,10 @@ h2 {
     
 }
 
+.title {
+    margin-bottom: 20px;
+}
+
 /* Header */
 
 .header .container {
@@ -108,10 +112,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-.contact__title {
-    margin-bottom: 10px;
-}
-
 .contact__list-item {
     display: flex;
     align-items: center;
@@ -155,10 +155,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-.about-me__title {
-    margin-bottom: 10px;
-}
-
 .about-me__list-item {
     display: flex;
     align-items: center;
@@ -190,10 +186,6 @@ h2 {
 
 .skill {
     margin-bottom: 30px;
-}
-
-.skill__title {
-    margin-bottom: 10px;
 }
 
 .skill__list {
@@ -251,10 +243,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-.experience__title {
-    margin-bottom: 20px;
-}
-
 .experience__article {
     margin-bottom: 20px;
 }
@@ -263,10 +251,6 @@ h2 {
 
 .education {
     margin-bottom: 50px;
-}
-
-.education__title {
-    margin-bottom: 20px;
 }
 
 .education__major {
@@ -285,10 +269,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-.languages__title {
-    margin-bottom: 20px;
-}
-
 .languages__list-item {
     margin-bottom: 5px;
 }
@@ -297,10 +277,6 @@ h2 {
 
 .project {
     margin-bottom: 50px;
-}
-
-.project__title {
-    margin-bottom: 20px;
 }
 
 .project__list-item {
@@ -315,8 +291,8 @@ h2 {
 }
 
 .footer__block {
-    margin: 0 200px 0 200px;
-    max-width: 800px;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
 }
 
 .footer__data {
@@ -379,4 +355,38 @@ h2 {
 .footer__bottom {
     display: flex;
     justify-content: space-between;
+}
+
+
+@media(max-width: 800px){
+    
+    body {
+        background-color: #0d1b3e;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .header__block {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .main .container {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-left-part {
+        margin: 0;
+        margin-bottom: 40px; 
+    }
+
+    .footer,
+    .footer a {
+        font-size: 12px;
+    }
+
 }
