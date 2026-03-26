@@ -18,7 +18,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.CV }}
         with:
 
-          source-directory: '.github/workflows' 
+          source-directory: 'zad1-cv' 
 
           destination-github-username: 'Bohdan-Savchuk-77363'
 
