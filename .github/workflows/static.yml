@@ -1,9 +1,8 @@
 name: Push to Public Repo
-
 on:
   push:
-    branches: ["main"]  
-  workflow_dispatch:     
+    branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   deploy-to-public:
@@ -17,12 +16,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.CV }}
         with:
-
-          source-directory: 'zad1-cv' 
-
+          source-directory: '.'
           destination-github-username: 'Bohdan-Savchuk-77363'
-
           destination-repository-name: 'link-cv'
-
           user-email: bsavchu1@stu.vistula.edu.pl
+          user-name: 'Bohdan-Savchuk-77363'       
           target-branch: main
