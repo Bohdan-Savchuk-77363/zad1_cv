@@ -125,7 +125,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/mail.svg');
+    background-image: url('./images/mail.svg');
     background-size: contain;
 }
 
@@ -135,7 +135,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/telephon.svg');
+    background-image: url('./images/telephon.svg');
     background-size: contain;
 }
 
@@ -145,7 +145,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/location.svg');
+    background-image: url('./images/location.svg');
     background-size: contain;
 }
 
@@ -168,7 +168,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/linkedin.svg');
+    background-image: url('./images/linkedin.svg');
     background-size: contain;
 }
 
@@ -178,7 +178,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/github.svg');
+    background-image: url('./images/github.svg');
     background-size: contain;
 }
 
@@ -326,7 +326,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/github.svg');
+    background-image: url('./images/github.svg');
     background-size: contain;
 }
 
@@ -336,7 +336,7 @@ h2 {
     filter: brightness(0) invert(1);
     width: 24px;
     height: 24px;
-    background-image: url('../images/linkedin.svg');
+    background-image: url('./images/linkedin.svg');
     background-size: contain;
 }
 
